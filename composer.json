@@ -1,0 +1,27 @@
+{
+    "name": "basicrangga/internalcode",
+    "authors": [
+        {
+            "name": "Basic Rangga",
+            "email": "basic.rangga@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "InternalCode\\":"src/InternalCode"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
